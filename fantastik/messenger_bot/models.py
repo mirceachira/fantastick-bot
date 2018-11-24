@@ -45,6 +45,8 @@ class Notification(models.Model):
         g = Notification.objects.
 
 
+
+
     #user = models.ForeignKey(AppUser,                     # App user Foreign key
     #when = # date
     #category = # charfield , exam, class, beer
