@@ -18,7 +18,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
-
+STATIC_ROOT = '.'
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'd*u*(bvf50%u&aw1^65c$te%qn20hf=!(i3_7tsh+5_(rc6zen'
 
@@ -26,7 +26,7 @@ SECRET_KEY = 'd*u*(bvf50%u&aw1^65c$te%qn20hf=!(i3_7tsh+5_(rc6zen'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '685a1e71.ngrok.io',
+    'fantastick.herokuapp.com',
 ]
 
 
