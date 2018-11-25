@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'fantastick.herokuapp.com',
+    '685a1e71.ngrok.io',
+    'localhost',
+    '127.0.0.1'
 ]
 
 
@@ -122,3 +125,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+TOKEN = 'EAAEwTcxx0TwBAGhnmXknbjJ68xop9hOeRd1ZAhmjUuN3NR7bqZBhsV7Nm6kteZBmou6l7ZCRQTBscL0EgDQ9HyE8k7FUZCKrOZC1mm04rxVhbZCLr4XBGsMqEDbJiZAZA3MrjBy4S3uZB6JSbf6OCUqhDmyMWgZChmZAA6nOdFWnOruf8cfjPyVG53dY'
